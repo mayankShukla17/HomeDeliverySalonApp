@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mayank.rock_paper_scissor.Shweta">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+    <ViewFlipper
+        android:layout_width="368dp"
+        android:layout_height="280dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/viewFlipper"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:background="@android:color/black">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/img1"
+            android:src="@drawable/ss1"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/img2"
+
+            android:src="@drawable/ss2"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/img3"
+            android:layout_gravity="center"
+
+            android:src="@drawable/ss3"/>
+
+    </ViewFlipper>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/viewFlipper"
+        android:layout_marginStart="119dp"
+        android:layout_marginTop="40dp"
+        android:text="Shweta Sachani"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+
+    <TextView
+        android:text="Shweta Sachani is a first generation entrepreneur and a makeup artist and an IIM Kolkata alumnus who left a comforting job of American Express to begin a business in makeup. Shweta has chosen a different path in her life when she left her job in American Express and went to fashion capitals Milan, Paris and London to explore her skills and acumen in makeup.Working in the fashion industry and with makeup artists in Milan she also developed relationships with product companies and will be bringing the best brands in India via her venture Makeup India. She believes heavily in women empowerment and has a goal to empower women to start their own venture via her franchise program. Shweta also does empowerment sessions for woman and has coached multiple women in achievement of their dreams. Shweta has already begun with makeup services in India and has launched India’s first chain on makeup studios which will act as a single place for makeup enthusiasts to get professional makeup done, buy makeup or get trained in makeup. With her venture Makeup India, Shweta plans to expand her chain of makeup studios to every corner of India by opening 100+ studios. Shweta is also writing a revolutionary book on makeup which will help common woman to carry out daily makeup in a professional way. Her vision is to revolutionize the Makeup Industry in India and take it to everyone’s doors which will empower woman entrepreneurs, professionals and house wives. She believes that every person can look beautiful if she presents herself rightly coupled with right makeup."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="36dp"
+        android:id="@+id/textView4" />
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

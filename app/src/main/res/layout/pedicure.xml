@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mayank.rock_paper_scissor.Pedicure">
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:orientation="vertical"-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--android:layout_alignParentStart="true">-->
+
+
+    <ImageView
+        android:layout_width="383dp"
+        android:layout_height="176dp"
+        app:srcCompat="@drawable/pedicurecaaa"
+        android:id="@+id/iv"
+        android:layout_alignParentTop="true" />
+
+
+    <ScrollView
+        android:layout_width="500dp"
+        android:layout_height="400dp"
+        android:layout_below="@+id/bpedicure"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical"
+            android:layout_alignParentEnd="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+                android:text="INFO"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="____________"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:text="Smoothen and cleanse your feet with a relaxing massage."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/textView5"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv"
+                android:text="BASIC CUT FILE AND POLISH"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="22sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="______________________________________________"
+                android:textColor="@color/colorPrimary"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹ 199.0      20 mins"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <TextView
+                android:text="Trim and shape your nails.Remove old nail polish with the nail polish remover,soak the feet in hot water. the therapy includes removal of cuticles and the Dead skin,Scrubbing,Washing of feet,15 mins of Relaxing Massage,Feet Pack and Nail Paint Application will be donr here."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/textView6"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ONLY NAIL PAINT APPLICATION"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="22sp" />
+            />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="_________________________________"
+                android:textColor="@color/colorPrimary"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹ 99.0        15 mins"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nail styling with gel nail polish."
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PARAFFIN"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="22sp" />
+            />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="_______________________"
+                android:textColor="@color/colorPrimary"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹ 549.0        60 mins"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Removes the Tan,giving your feet a radiant look.Makes your skin smooth and soft"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:text="Get"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bpedicure"
+        android:textAllCaps="false"
+        android:background="#123456"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/iv"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="23dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/bpedicure"
+        android:text="Pedicure"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+
+</RelativeLayout>

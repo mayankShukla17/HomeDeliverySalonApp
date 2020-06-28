@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mayank.rock_paper_scissor.Ambika">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/viewFlipper"
+        android:background="@android:color/black">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/img1"
+        android:src="@drawable/rr1"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/img2"
+
+        android:src="@drawable/aa2"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/img3"
+android:layout_gravity="center"
+        android:src="@drawable/aa3"/>
+
+    </ViewFlipper>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/viewFlipper"
+        android:layout_marginStart="119dp"
+        android:layout_marginTop="40dp"
+        android:text="Ambika Pillai"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="36dp"
+        android:layout_toStartOf="@+id/textView"
+        android:text="Ambika Pillai is a hairstylist and makeup artist in the fashion industry from Kollam, Kerala.Her work regularly appears in advertising campaigns, catwalk shows, fashion films, and editorials.She started her career as a hair stylist and moved on to Make-up. When Ambika started her first salon it was called Visions by Ambika.She later decided to develop it as a brand. At present Ambika Pillai is a brand by itself."
+        android:layout_alignParentEnd="true" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

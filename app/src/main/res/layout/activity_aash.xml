@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mayank.rock_paper_scissor.aash">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+
+            <ViewFlipper
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:id="@+id/viewFlipper"
+                android:background="@android:color/black">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/img1"
+                    android:src="@drawable/aas1"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/img2"
+                    android:layout_gravity="center"
+
+                    android:src="@drawable/aas2"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/img3"
+                    android:layout_gravity="center"
+                    android:src="@drawable/aas3"/>
+
+            </ViewFlipper>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/viewFlipper"
+                android:layout_marginStart="119dp"
+                android:layout_marginTop="40dp"
+                android:text="Aashmeen Munjal"
+                android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:layout_marginTop="36dp"
+                android:layout_toStartOf="@+id/textView"
+                android:text="Aashmeen Munjaal is a seasoned connoisseur of thematic make up and her ingenious makeover skills make thematic makeup one of her forte.
+Over her comprehensive career of 13 years, her phenomenal creativity stretched to the Tinsel town and led her to doll up celebrities like Freida Pinto , Soha Ali Khan , Jaquiline Fernandis and stunning ramp models like Krishna Sumani, Amanpreet Wahi Yuvika Choudhry and many more."
+                android:layout_alignParentEnd="true" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mayank.rock_paper_scissor.Meena">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/viewFlipper"
+        android:background="@android:color/black">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/img1"
+            android:src="@drawable/mm1"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/img2"
+            android:layout_gravity="center"
+
+            android:src="@drawable/mm2"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/img3"
+
+            android:src="@drawable/mm3"/>
+
+    </ViewFlipper>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/viewFlipper"
+            android:layout_marginStart="119dp"
+            android:layout_marginTop="40dp"
+            android:text="Minakshi Dutt"
+            android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+
+        <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=" Meenakshi Dutt has bestowed peerless beauty upon innumerable Indian women. Bollywood and Hollywood looks come calling during Red Carpet events. Her unique ideas and creativity in this field have cameras and lights shed upon them from every sphere.
+
+She also shook hands for numerous assignments around the world. Photo shoots, television and print advertisements, music videos, fashion shows, launches, TV talk shows, etc. Speaking of India, she has tailored suits for women in the country with respect to varying skin colours. Moulding those in with her effective hair and beauty tips and care techniques, she makes every girl in the country look like a princess on her big day specialising in the Bridal make-up and hairstyles.
+
+Meenakshi and her team’s excellence are preferred by leading photographers, fashion designers, choreographers and model agencies today. And the utterance of the term bridal makeup does spout out the name Meenakshi Dutt. This level of determination has experts and leaders of the fashion world pointing fingers upwards, naming Meenakshi Dutt. At the moment operating from two humongous salons, one in Punjabi Bagh, and another near Panchsheel Park, South Delhi!
+
+Lastly, she now has her own school as well. Every single type of style and fashion being crafted on the professional end has been taught here. You could also check out her YouTube channel to view an array of tutorials.
+
+The oration of beauty, style and fashion brings forth the crest above the rest, Meenakshi Dutt ."/>
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

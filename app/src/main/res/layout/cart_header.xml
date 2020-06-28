@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/dot_dark_screen2"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/common_padding"
+    android:paddingTop="@dimen/common_padding"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+        android:gravity="center"
+        android:text="@string/name"
+        android:id="@+id/t1"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/product_list_header_text_size"/>
+
+    <TextView
+        android:layout_width="0dip"
+        android:id="@+id/t2"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:gravity="center"
+        android:text="@string/unit_price"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/product_list_header_text_size"/>
+
+    <TextView
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15"
+        android:gravity="center"
+        android:text="Qty"
+        android:id="@+id/t3"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/product_list_header_text_size"/>
+
+    <TextView
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25"
+        android:id="@+id/t4"
+        android:gravity="center"
+        android:text="@string/price"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/product_list_header_text_size"/>
+</LinearLayout>

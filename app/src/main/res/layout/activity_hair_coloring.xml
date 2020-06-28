@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mayank.rock_paper_scissor.HairColoring">
+
+    <ImageView
+        android:layout_width="383dp"
+        android:layout_height="176dp"
+
+        android:id="@+id/iv"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/haircoloca" />
+
+
+    <ScrollView
+        android:layout_width="500dp"
+        android:layout_height="400dp"
+        android:layout_below="@+id/bpedicure"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical"
+            android:layout_alignParentEnd="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+                android:text="INFO"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="____________"
+                android:textColor="@color/colorPrimary"/>
+
+
+            <TextView
+                android:text="Salon profeesional permanent,coloring procedure is used by L'Oreal Majirel color range."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/textView5"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv"
+                android:text="HAIR COLOURING(L'Oreal)"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="_____________________________"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:text="It covers full lenth of Hair.It gives you long-lasting,radiant hair color with rich,natural tones.Treats the entire hair fiber with conditioning activity ingredient ,strenthening and protecting the hair."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+                android:text="Color and Highlights"
+                android:textAllCaps="false" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="___________________________"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+                android:text="Upto Elbows"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="________________"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹ 4199.0      60 mins"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+                android:text="Upto Shoulder"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="________________"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹ 3199.0      60 mins"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+                android:text="Upto Waist"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="________________"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹ 5199.0      60 mins"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+                android:text="Root Touch Up"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="__________________________"
+                android:textColor="@color/colorPrimary"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹ 699.0      30 mins"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Salon professionals permanent coloring procedure for grey coverage.Covers 1-2 inches of length from roots.It gives you long-lasting ,radiant hair color with rich,natural tones.Treats the entire hair fiber with conditioning activity ingrediants,strengthening and protecting the hair.
+ "
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+                android:text="Root Touch Up(INOA)"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="__________________________"
+                android:textColor="@color/colorPrimary"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹ 899.0      20 mins"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Salon professionals permanent coloring procedure for grey coverage.Covers 1-2 inches of length from roots.No ammonia hair colour with Oil Delivery System technology,which suits all hair types.Retains hair texture and protects the scalp."
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:text="Hair Colouring"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textAppearance="@android:style/TextAppearance.Holo.Large"
+        android:textSize="36sp"
+        android:layout_below="@+id/iv"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="21dp" />
+
+    <Button
+        android:text="Get"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bpedicure"
+        android:textAllCaps="false"
+        android:background="#123456"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

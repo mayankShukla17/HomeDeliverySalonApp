@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/qq"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:id="@+id/imageButton"
+        android:alpha="0.8" />
+
+    <TextView
+        android:text= " Appointments:\n
+                     Call 585.730.8118\n
+                    Hours:\n
+                    Tues-Thursday: 10am-8pm\n
+                    Fri: 10am-6pm\n
+                    Sat: 10am-3pm\n
+                    Email:\n
+                RockPaperScissor@gmail.com
+        "
+        android:onClick="moveToNextActivity"
+        android:textColor="@android:color/background_light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton"
+        android:layout_marginTop="46dp"
+        android:id="@+id/tv1" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:onClick="moveToNextActivity"
+        android:text="Why RockPaperScissor?"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+
+
+
+</RelativeLayout>

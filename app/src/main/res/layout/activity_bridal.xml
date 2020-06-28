@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mayank.rock_paper_scissor.Bridal">
+
+    <ImageView
+        android:layout_width="383dp"
+        android:layout_height="176dp"
+
+        android:id="@+id/iv"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/bridalca" />
+
+
+    <ScrollView
+        android:layout_width="500dp"
+        android:layout_height="400dp"
+        android:layout_below="@+id/bpedicure"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical"
+            android:layout_alignParentEnd="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+                android:text="INFO"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="____________"
+                android:textColor="@color/colorPrimary"/>
+
+
+            <TextView
+                android:text="Pre Bridal beauty package."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/textView5"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv"
+                android:text="SKIN ESSENTIALS"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="22sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="_____________________________"
+                android:textColor="@color/colorPrimary"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹ 1799.0      3 hr"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Have your basic grooming taken care of by expert artists.Get Threading(Eyebrow+Upper lip),Regular waxing(full arms+full legs),Regular Manicure+Pedicure and Pearl clean up.All of this at a discounted package price.
+ "
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+                android:text="SKIN LUXURY"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="____________"
+                android:textColor="@color/colorPrimary"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹ 5199.0      4 hr 30 mins"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Experience luxury in the comfort of your home.Get Threading(Eyebrow+Upper lip),Regular waxing(full arms+full legs),Me! Bath Manicure+Pedicure and Forest Essentials Advance Facial at a special price.
+ "
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:text="Get"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bpedicure"
+        android:textAllCaps="false"
+        android:background="#123456"
+        android:textColor="#ffffff"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/iv"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="27dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/scrollView2"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/bpedicure"
+        android:text="PRE-BRIDAL"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title" />
+
+
+</RelativeLayout>

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mayank.rock_paper_scissor.Facial">
+
+    <ImageView
+        android:layout_width="383dp"
+        android:layout_height="176dp"
+
+        android:id="@+id/iv"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/facialca" />
+
+
+    <ScrollView
+        android:layout_width="500dp"
+        android:layout_height="400dp"
+        android:layout_below="@+id/button"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical"
+            android:layout_alignParentEnd="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+                android:text="INFO"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="____________"
+                android:textColor="@color/colorPrimary"/>
+
+
+            <TextView
+                android:text="it contains De-Tan,Anti Acne,Anti Tan,Anti Wrinkle,Chocolate,Diamond,Fruit,,Gold,Insta Glow,Kool Kiwi Fruit,O3,Pearl,Skin Tightening(VLCC),,UnderEyeTreatment,Very Berry Fruit,whitening Peel Off Mask facials."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/textView5"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+                android:text="De Tan Facial"
+                android:textAllCaps="false" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="_____________________________"
+                android:textColor="@color/colorPrimary"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹ 899.0      45 mins"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Single use facial contains:cleanser,Exfoliator,Toner,Massage cream,Wet cream pack,Day Cream SPF 30.
+ "
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+                android:text="Anti Acne"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="________________"
+                android:textColor="@color/colorPrimary"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹ 1349.0      60 mins"/>
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="it has Green Tea Rubber/Power Mask which is good for acne prone skin.
+ "
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+                android:text="Anti Tan"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="____________"
+                android:textColor="@color/colorPrimary"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹ 699.0      45 mins"/>
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The therapy includes cleansing,oat meal scrubbing,melawhite gel mixed with melawhite pack,pista cream massage,and melawhite powder pack."
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+                android:text="Anti Wrinkle"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="_______________________"
+                android:textColor="@color/colorPrimary"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹ 1499.0      60 mins"/>
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="It revitalizes,tightens and firms the skin.The advanced formula helps to reduce the appearance of fine lines and wrinkles."
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+                android:text="Skin Tightening"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="________________________"
+                android:textColor="@color/colorPrimary"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹ 999.0      60 mins"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="It makes skin smooth calm and deep cleansed"/>
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+                android:text="Under Eye Treatment"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="______________________________"
+                android:textColor="@color/colorPrimary"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹ 499.0      30 mins"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />          <!--android:textAppearance="@style/TextAppearance.AppCompat.Medium" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+                android:text="Peel Off Mask"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="________________________"
+                android:textColor="@color/colorPrimary"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹ 349.0      30 mins"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="It comes in a powder texture,which will be mixed in a thick form as paste and will be applied on the face to take off the tanning and pigmentation."
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:text="Get"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:textAllCaps="false"
+        android:background="#123456"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/iv"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="23dp" />
+
+    <TextView
+        android:text="Facial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textAppearance="@android:style/TextAppearance.Holo.Large"
+        android:textSize="40sp"
+        android:layout_alignTop="@+id/button"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/scrollView2" />
+
+
+</RelativeLayout>

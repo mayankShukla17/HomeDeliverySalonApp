@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/bpedicure"
+        android:layout_below="@+id/bpedicure"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="64dp"
+        android:text="Need Help ?"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.Button" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bpedicure"
+        android:layout_alignBottom="@+id/bpedicure"
+        android:layout_marginEnd="15dp"
+        android:layout_toStartOf="@+id/bpedicure"
+        android:text="Recover via SMS" />
+
+    <Button
+        android:id="@+id/bpedicure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="67dp"
+        android:text="Recover via Email" />
+</RelativeLayout>

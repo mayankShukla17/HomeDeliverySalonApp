@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mayank.rock_paper_scissor.Vidya">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/viewFlipper"
+        android:background="@android:color/black">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/img1"
+            android:src="@drawable/v2"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/img2"
+
+            android:src="@drawable/v3"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/img3"
+            android:layout_gravity="center"
+
+            android:src="@drawable/v1"/>
+
+    </ViewFlipper>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="139dp"
+        android:text="Vidya Tikari"
+        android:layout_below="@+id/viewFlipper"
+        android:layout_alignParentStart="true"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="From a humble beginning in 1991, Vidya has grown to become a professional name to be reckoned with in the fields of Hair and Makeup. From catering to events like the “Commonwealth Games in 2010 where the hair and makeup was done for over 9,000 performers” which also landed her name in the “Limca book of records 2011” to the first ever “Formula 1 Grand Prix”, Vidya and her team have been servicing thousands of clients every year from around the globe. Since then, Vidya has shaped stunning and exquisite looks for Bollywood celebrities like Madhuri Dixit, Sushmita Sen, Aishwarya Rai, Deepika Padukone, Bipasha Basu, Malaika Arora Khan, Priyanka Chopra, Mallika Sherawat, Gul Panag, Yana, Anoushka Shankar, Abhay Deol and has given a new name to the concept “male grooming” with Vikas Khanna, Virat Kohli, Vijender Singh, Nagesh Kukunoor, Rajeev Khandelwal, Chetan Bhagat to name a few.  Born in Kolkata soon after which her family moved to Papua New Guinea, Vidya credits her upbringing, family support and the diverse cultural background for the Makeup artist she is now. “From the age of 5, I knew I wanted to become a makeup artist” she says, “Anyone can add colour to a face but knowing “How to” and “When to” takes a skillful and professional eye” and that still remains very close to our hearts, and have rightfully become our specialty…. "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/textView3" />
+</LinearLayout>
+    </ScrollView>
+</RelativeLayout>
